@@ -2,6 +2,14 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Exercicio4",
+      "request": "launch",
+      "mainClass": "atividade1.Exercicio4",
+      "projectName": "atividade1",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Exercicio3",
       "request": "launch",
       "mainClass": "atividade1.Exercicio3",
