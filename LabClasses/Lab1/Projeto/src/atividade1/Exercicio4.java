@@ -13,7 +13,7 @@ public class Exercicio4 {
 
     scan.close();
     
-    int[] array = {25, 14, 56, 15, 36, 66, 77, 18, 29, 0};
+    int[] array = getRandomIntArray(10);
     System.out.println("Array inicial:");
     System.out.println(Arrays.toString(array));
 
@@ -29,7 +29,7 @@ public class Exercicio4 {
     int[] array = new int[length];
 
     for (int i = 0; i < length; i++) {
-      array[i] = (int)(Math.random() * 2);
+      array[i] = (int)(Math.random() * 10);
     }
 
     return array;
