@@ -25,5 +25,10 @@ RUN curl -sSL --output gradle.zip "https://services.gradle.org/distributions/gra
 # Clean yum cache
 RUN yum clean all
 
+RUN if [ ! -d "/docker-java-home" ]; then ln -s "${JAVA_HOME}" /docker-java-home; fi
+
 # Set the default shell to bash instead of sh
+
+RUN mkdir ~/.ssh && ln -s /run/secrets/ssh-key ~/.ssh/id_rsa && ln -s /run/secrets/hosts ~/.ssh/known_hosts  && ln -s /run/secrets/ssh-pub-key ~/.ssh/id_rsa.pub
+
 ENV SHELL /bin/bash
