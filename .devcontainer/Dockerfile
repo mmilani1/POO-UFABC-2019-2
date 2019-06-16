@@ -5,8 +5,11 @@
 
 FROM maven:3-jdk-12
 
-# Verify git, needed tools installed
-RUN yum install -y git curl procps unzip
+# Verify needed tools installed
+RUN yum install -y curl procps unzip
+
+RUN yum install -y http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+RUN yum install -y git
 
 # Install Gradle
 ENV GRADLE_HOME /opt/gradle
