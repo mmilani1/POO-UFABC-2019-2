@@ -2,6 +2,14 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - CarroDefault",
+      "request": "launch",
+      "mainClass": "CarroDefault",
+      "projectName": "atividade2",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - AgendaDefault",
       "request": "launch",
       "mainClass": "AgendaDefault",
