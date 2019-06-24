@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Teste",
+      "request": "launch",
+      "mainClass": "Teste",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - CarroDefault",
       "request": "launch",
       "mainClass": "CarroDefault",
