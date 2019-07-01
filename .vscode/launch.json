@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Default",
+      "request": "launch",
+      "mainClass": "Default",
+      "projectName": "lab5"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - CarroDefault",
       "request": "launch",
       "mainClass": "CarroDefault",
