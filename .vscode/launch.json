@@ -4,6 +4,18 @@
       "type": "java",
       "name": "CodeLens (Launch) - Default",
       "request": "launch",
+      "mainClass": "criafigura.Default"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Default",
+      "request": "launch",
+      "mainClass": "Default"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Default",
+      "request": "launch",
       "mainClass": "Default",
       "projectName": "lab5"
     },
